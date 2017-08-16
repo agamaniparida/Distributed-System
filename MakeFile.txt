@@ -1,0 +1,8 @@
+Compile Instruction - 
+From inside Directory -
+ 1) Compile :javac WebServer.java
+ 2) Run: java WebServer -document_root "give directory path where scu.edu/index.html downloaded" -port 'Give your port number(e.g. 8002)'
+
+From outside directory - 
+ 1) Compile from outside directory - javac “/give directory path where java file present/“ WebServer.java
+ 2) Run from outside directory - java -cp "/give directory path where java file present/“ WebServer -document_root “/give directory path where scu.edu/index.html downloaded/“ -port 8002
